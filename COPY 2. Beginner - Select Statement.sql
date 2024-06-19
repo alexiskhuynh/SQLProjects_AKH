@@ -1,3 +1,5 @@
+-- AKH: testing GITHUB
+
 -- SELECT STATEMENET
 
 -- the SELECT statement is used to work with columns and specify what columns you want to work see in your output. There are a few other things as well that
