@@ -1,5 +1,6 @@
--- AKH: testing GITHUB
 
+
+-- AKH-
 -- SELECT STATEMENET
 
 -- the SELECT statement is used to work with columns and specify what columns you want to work see in your output. There are a few other things as well that
@@ -9,11 +10,11 @@
 
 #Now remember we can just select everything by saying:
 SELECT * 
-FROM parks_and_recreation.employee_demographics;
+FROM employee_demographics;
 
 
 #Let's try selecting a specific column
-SELECT first_name
+SELECT first_name, last_name, age, birth_date
 FROM employee_demographics;
 
 #As you can see from the output, we only have the one column here now and don't see the others
