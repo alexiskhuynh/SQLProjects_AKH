@@ -14,6 +14,8 @@ FROM employee_salary;
 #Now you should keep it the same kind of data otherwise if you start mixing tips with first_names it would be really confusing, but you can do it.
 #Let's try it out and use Union to bring together some random data, then we will look at an actual use case
 
+
+
 SELECT first_name, last_name
 FROM employee_demographics
 UNION
